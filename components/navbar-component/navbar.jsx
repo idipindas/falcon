@@ -310,7 +310,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
             >
               About
             </Link>
-            <div
+            {/* <div
               className="relative cursor-pointer  transition-all"
               onClick={() => {
                 setModal(true);
@@ -329,7 +329,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
                 ""
               )}
               <FaShoppingCart />
-            </div>
+            </div> */}
 
             <Link onClick={scrollToTop} to="/contact">
               <Button
@@ -345,7 +345,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
               navBar2 ? "text-black" : textColor
             } text-xl hidden max-lg:flex justify-center items-center gap-8`}
           >
-            <div
+            {/* <div
               className="relative"
               onClick={() => {
                 setModal(true);
@@ -363,7 +363,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
                 ""
               )}
               <FaShoppingCart />
-            </div>
+            </div> */}
 
             <FaBars
               onClick={() => {

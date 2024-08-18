@@ -15,14 +15,14 @@ const FreeTrial = () => {
         {" "}
         IMPROVE YOUR BUSINESS AND MAKE YOUR WORK EASY
       </h1>
-      <Link onClick={scrollToTop} to="/contact">
+      {/* <Link onClick={scrollToTop} to="/contact">
         <Button
           content={"Start free trial"}
           fontSize={"text-2xl max-sm:text-xl"}
           padding={"px-6 py-2"}
           styles={{ borderColor: "white" }}
         />
-      </Link>
+      </Link> */}
     </div>
   );
 };

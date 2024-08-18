@@ -99,7 +99,7 @@ const ServicePage = ({ id, title, breif, descr, imageSrc }) => {
               the optimum stage in the process.
             </p>
           </div>
-          <div className="mt-10">
+          {/* <div className="mt-10">
             <Accordion
               className="text-xl flex flex-col gap-5 "
               allowToggle={true}
@@ -187,7 +187,7 @@ const ServicePage = ({ id, title, breif, descr, imageSrc }) => {
                 </AccordionPanel>
               </AccordionItem>
             </Accordion>
-          </div>
+          </div> */}
         </motion.div>
         <motion.div
           initial="initial"
