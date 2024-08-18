@@ -10,6 +10,7 @@ import Carousel from "../home-page-components/carousel";
 import PartnerBrandCard from "../home-page-components/partnerBrandCard";
 import { partnerBrands } from "../../constants/partnerBrands";
 import "./about.css";
+import owner from '../../public/falcon-img/user-dummy.jpg'
 
 const AboutPage = () => {
   return (
@@ -33,11 +34,11 @@ const AboutPage = () => {
           <div className="flex gap-12 max-sm:text-center text-white">
             <div className="flex max-md:items-center flex-col gap-4">
               <h2 className="text-4xl title-font font-bold">19K+</h2>
-              <p className="text-lg">Premium houses</p>
+              <p className="text-lg">Premium Clients</p>
             </div>
             <div className="flex max-md:items-center flex-col gap-4">
               <h2 className="text-4xl  title-font font-bold">5000+</h2>
-              <p className="text-lg">Premium houses</p>
+              <p className="text-lg">Premium Clients</p>
             </div>
           </div>
         </motion.div>
@@ -53,60 +54,62 @@ const AboutPage = () => {
           style={{ maxWidth: 1200 }}
           className="mx-auto  p-10 py-28  max-sm:px-5 max-md:py-16 "
         >
-          <div className="flex w-full gap-10 max-md:flex-col max-md:justify-center max-md:items-center max-md:text-center">
-            <div className="flex flex-col items-start justify-between max-md:items-center">
-              <h1 className="text-5xl font-bold title-font w-max">
-                What we offer
-              </h1>
-              <Link onClick={scrollToTop} to={"/services"}>
-                <Button
-                  content={"Services"}
-                  fontSize={"text-xl"}
-                  padding={"px-5  py-2"}
-                  furtherClasses={"mt-8"}
-                />
-              </Link>
-            </div>
-            <div className="w-full">
+       <div className="bg-white">
+        <div
+          style={{ maxWidth: 1200 }}
+          className="mx-auto flex max-md:flex-col justify-center items-center max-md:text-center gap-20 max-md:gap-12 p-10   max-sm:px-5 max-md:py-16  md:pb-36 "
+        >
+          <motion.div
+            initial="initial"
+            whileInView="animate"
+            variants={animationVariants.fadeUp}
+            viewport={{ once: true, amount: 0.2 }}
+            className=" w-3/5 max-md:w-full flex flex-col text-black items-start justify-between max-md:items-center"
+          >
+            {/* <h1 className="text-5xl font-bold title-font w-max">
+              What we offer
+            </h1> */}
+            <p className="text-4xl font-bold mt-5">
+              <span className="text-5xl font-bold title-font w-max">“</span> Our
+              legacy is woven with threads of love, tailored for those
+              recovering from enduring mental illness. As we empower individuals
+              toward full independence, let compassion be our compass.
+              <span className="text-5xl font-bold title-font w-max">”</span>
+            </p>
+          </motion.div>
+          <motion.div
+            initial="initial"
+            whileInView="animate"
+            variants={animationVariants.fadeUp}
+            viewport={{ once: true, amount: 0.2 }}
+            className=" w-2/5 max-md:w-full flex flex-col text-black items-start justify-between max-md:items-center"
+          >
+            <motion.div
+              initial="initial"
+              whileInView="animate"
+              variants={animationVariants.fadeUp}
+              viewport={{ once: true, amount: 0.2 }}
+              style={{ height: 250 }}
+              className="relative w-full mt-6"
+            >
               <img
-                src="/about-page-images/what-we-do.jpg"
-                className="w-full h-full"
-                alt=""
+                className="w-full h-full rounded-lg object-cover mb-2"
+                src={owner}
+                alt="img"
               />
-            </div>
-          </div>
-          <div className="what-we-do-cards mt-14 gap-8 max-md:grid-cols-1 max-md:grid-rows-3 grid grid-cols-3 grid-rows-1">
-            <div>
-              <h2 className="text-2xl text-red-500 font-semibold">
-                Get an instant free valuation
-              </h2>
-              <p className="text-xl mt-2">
-                Lorem ipsum dolor sit amet consectetur. Malesuada vehicula netus
-                urna in elit amet.
-              </p>
-            </div>
-            <div>
-              <h2 className="text-2xl text-red-500 font-semibold">
-                Get your property ready
-              </h2>
-              <p className="text-xl mt-2">
-                Lorem ipsum dolor sit amet consectetur. Malesuada vehicula netus
-                urna in elit amet.
-              </p>
-            </div>
-            <div>
-              <h2 className="text-2xl text-red-500 font-semibold">
-                Offer acceptance
-              </h2>
-              <p className="text-xl mt-2">
-                Lorem ipsum dolor sit amet consectetur. Malesuada vehicula netus
-                urna in elit amet.
-              </p>
-            </div>
-          </div>
+              <div className=" flex justify-center">
+                <h2 className="title-font text-xl font-semibold mb-1 mr-5">
+                  Mrs. SHAHIN
+                </h2>
+                <p className="text-xl">CEO</p>
+              </div>
+            </motion.div>
+          </motion.div>
+        </div>
+      </div>
         </motion.div>
       </div>
-      <div className="bg-black">
+      {/* <div className="bg-black">
         <div
           style={{ maxWidth: 1200 }}
           className="mx-auto flex max-md:flex-col justify-center items-center max-md:text-center gap-20 max-md:gap-12 p-10 py-28  max-sm:px-5 max-md:py-16  md:pb-36 "
@@ -151,9 +154,9 @@ const AboutPage = () => {
             </div>
           </motion.div>
         </div>
-      </div>
+      </div> */}
       {/* we focus section start */}
-      <div>
+      {/* <div>
         <div
           style={{ maxWidth: 1200 }}
           className="mx-auto  p-10 py-28  max-sm:px-5 max-md:py-16  "
@@ -227,9 +230,9 @@ const AboutPage = () => {
             </motion.div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* we focus section start */}
-      <div
+      {/* <div
         className="bg-[50%] max-lg:bg-[55%] max-md:bg-[90%] bg-no-repeat bg-fixed"
         style={{ backgroundImage: "url('/faq-bannar.jpg')" }}
       >
@@ -292,10 +295,10 @@ const AboutPage = () => {
             </div>
           </motion.div>
         </div>
-      </div>
+      </div> */}
 
       {/* appreciation section start */}
-      <div className="bg-white">
+      {/* <div className="bg-white">
         <div
           style={{ maxWidth: 1200 }}
           className="p-10 max-md:px-5 py-28 mx-auto grid grid-cols-2 grid-rows-1 gap-20 max-lg:grid-cols-1 max-lg:grid-rows-2 "
@@ -387,10 +390,10 @@ const AboutPage = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* appreciation section end */}
       {/* review section start */}
-      <div className="bg-gray-100">
+      {/* <div className="bg-gray-100">
         <div
           style={{ maxWidth: 1200 }}
           className=" mx-auto flex max-md:flex-col justify-center items-center gap-16 p-10 max-md:px-5 py-28 "
@@ -448,10 +451,10 @@ const AboutPage = () => {
             </div>
           </motion.div>
         </div>
-      </div>
+      </div> */}
       {/* review section end */}
       {/* partner brand section start */}
-      <div className="bg-gray-100 border-t-2 border-black/30  border-dashed">
+      {/* <div className="bg-gray-100 border-t-2 border-black/30  border-dashed">
         <div
           style={{ maxWidth: 1200 }}
           className=" mx-auto flex max-md:flex-col justify-center items-center gap-10 p-10 max-md:px-5  "
@@ -475,7 +478,7 @@ const AboutPage = () => {
             })}
           </motion.div>
         </div>
-      </div>
+      </div> */}
       {/* partner brand section end */}
     </>
   );
