@@ -54,7 +54,7 @@ const HomePage = () => {
             variants={animationVariants.fadeLeft}
             className="text-6xl max-lg:mx-auto font-semibold max-sm:text-4xl max-w-lg "
           >
-           Delivery firms compete for your job
+            Delivery firms compete for your job
           </motion.h1>
           <motion.p
             variants={animationVariants.fadeLeft}
@@ -137,8 +137,8 @@ const HomePage = () => {
               viewport={{ once: true, amount: 0.2 }}
             >
               <h2 className="text-5xl max-md:text-4xl font-bold title-font">
-                We build quality real estate projects
-                <span className=" text-red-500 title-font "> since 1998</span>
+                Delivering Solutions Across the
+                <span className=" text-red-500 title-font "> Globe </span>
               </h2>
             </motion.div>
           </div>
@@ -150,10 +150,11 @@ const HomePage = () => {
               viewport={{ once: true, amount: 0.2 }}
             >
               <p className="text-xl">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                itaque nesciunt similique dolore illum eaque repellat eligendi
-                nemo odit fugit in, impedit ad excepturi architecto dolores
-                quaerat accusantium! Sapiente, repellendus!
+                At Falcon Supply Chain and Logistics Ltd, we specialize in
+                providing reliable and efficient logistics solutions to
+                businesses of all sizes. With a global network and cutting-edge
+                technology, we ensure timely deliveries, optimized supply
+                chains, and seamless transportation services.
               </p>
               <Link onClick={scrollToTop} to={"/about"}>
                 <Button
@@ -209,17 +210,17 @@ const HomePage = () => {
               <WhatWeDoCard
                 iconSrc={"/icons/reliability.png"}
                 iconAlt={"reliability"}
-                title={"Reliability"}
+                title={"Fast And Easy"}
                 desc={
-                  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam distinctio, nemo libero deleniti quibusdam quia!"
+                  "Complete one simple form and quotes come to you via email. Hassle-free, no phone calls required."
                 }
               />
               <WhatWeDoCard
                 iconSrc={"/icons/communication.png"}
                 iconAlt={"communication"}
-                title={"communication"}
+                title={"Trustworthy"}
                 desc={
-                  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam distinctio, nemo libero deleniti quibusdam quia!"
+                  "All courier services on Shiply are feedback rated for your peace of mind."
                 }
               />
             </div>
@@ -231,9 +232,9 @@ const HomePage = () => {
               <WhatWeDoCard
                 iconSrc={"/icons/quality-first.png"}
                 iconAlt={"quality-first"}
-                title={"Quality First"}
+                title={"Helpful"}
                 desc={
-                  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam distinctio, nemo libero deleniti quibusdam quia!"
+                  "Need assistance? Email or call us. We are here to help."
                 }
               />
               <div
@@ -395,7 +396,7 @@ const HomePage = () => {
           <div className="w-full max-lg:w-full h-full max-sm:max-h-[500px] ">
             <div className=" h-full w-full relative overflow-hidden rounded-lg">
               <img
-                src="/appriciation-section-image.jpg"
+                src="/falcon-img/del-img1.jpg"
                 className="absolute w-full h-full object-cover object-center "
                 alt=""
               />
@@ -500,7 +501,7 @@ const HomePage = () => {
             className="w-2/4 max-md:w-full max-md:text-center flex flex-col gap-8"
           >
             <h1 className="text-5xl max-md:text-4xl font-semibold">
-              Why do people love homyz
+              Why do people love Falcon
             </h1>
             <div>
               <Carousel />
