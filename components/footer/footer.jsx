@@ -136,7 +136,9 @@ const Footer = () => {
         <div className="flex flex-col items-start h-auto justify-between gap-16 w-2/4 max-lg:w-full pr-10 max-sm:pr-0">
           <div className="flex flex-col text-lg items-start  justify-between gap-10 ">
             <a href="/">
-              <img src="/Homyz-logo.png" className="w-36" alt="Homyz-logo" />
+              {/* <img src="/Homyz-logo.png" className="w-36" alt="Homyz-logo" /> */}
+              <div className="text-4xl font-semibold text-white">FALCON </div>
+
             </a>
             <p style={{ color: "#696969" }}>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam,

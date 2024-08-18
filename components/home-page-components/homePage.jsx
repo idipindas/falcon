@@ -54,7 +54,7 @@ const HomePage = () => {
             variants={animationVariants.fadeLeft}
             className="text-6xl max-lg:mx-auto font-semibold max-sm:text-4xl max-w-lg "
           >
-            Discover Most Suitable Property
+           Delivery firms compete for your job
           </motion.h1>
           <motion.p
             variants={animationVariants.fadeLeft}
@@ -63,7 +63,7 @@ const HomePage = () => {
             Our mission is to engage in issues that are of concern to
             individuals
           </motion.p>
-          <motion.div
+          {/* <motion.div
             variants={animationVariants.fadeLeft}
             id="search-inp"
             className="max-w-xl max-lg:mx-auto max-lg:w-full relative"
@@ -89,22 +89,22 @@ const HomePage = () => {
               styles={{ top: 9.5 }}
               onClick={handleSearch}
             />
-          </motion.div>
+          </motion.div> */}
           <motion.div
             variants={animationVariants.fadeLeft}
             className="flex max-lg:flex-col max-lg:items-center gap-10 w-full justify-between items-end mt-4"
           >
             <div className="flex gap-12">
               <div className="flex flex-col gap-4">
-                <h2 className="text-4xl title-font font-bold">19K+</h2>
-                <p className="text-lg">Premium houses</p>
+                <h2 className="text-4xl title-font font-bold">100+</h2>
+                <p className="text-lg">Premium clients</p>
               </div>
               <div className="flex flex-col gap-4">
-                <h2 className="text-4xl title-font font-bold">5000+</h2>
-                <p className="text-lg">Premium houses</p>
+                <h2 className="text-4xl title-font font-bold">100+</h2>
+                <p className="text-lg">Premium clients</p>
               </div>
             </div>
-            <div className="flex gap-12 max-sm:flex-wrap  justify-center">
+            {/* <div className="flex gap-12 max-sm:flex-wrap  justify-center">
               <div className="flex justify-start items-center gap-2">
                 <img className="w-9" src="/grafton.png" alt="img" />
                 <h2 className="text-2xl">Grafton</h2>
@@ -117,7 +117,7 @@ const HomePage = () => {
                 <img className="w-9" src="/tundratown.png" alt="img" />
                 <h2 className="text-2xl">Tundratown</h2>
               </div>
-            </div>
+            </div> */}
           </motion.div>
         </motion.div>
 
@@ -243,7 +243,7 @@ const HomePage = () => {
             </div>
           </motion.div>
         </div>
-        <div style={{ maxWidth: 1200 }} className="p-10 max-md:px-5 mx-auto">
+        {/* <div style={{ maxWidth: 1200 }} className="p-10 max-md:px-5 mx-auto">
           <motion.h2
             initial="initial"
             whileInView="animate"
@@ -315,7 +315,7 @@ const HomePage = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       {/* what we do section end */}
 
@@ -413,7 +413,7 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-        <div
+        {/* <div
           style={{ maxWidth: 1200 }}
           className="mx-auto destination-section p-10 max-md:px-5  pb-28"
         >
@@ -445,7 +445,7 @@ const HomePage = () => {
               }
             })}
           </div>
-        </div>
+        </div> */}
       </div>
       {/* appreciation section end */}
       {/* review section start */}
@@ -510,7 +510,7 @@ const HomePage = () => {
       </div>
       {/* review section end */}
       {/* partner brand section start */}
-      <div className="bg-gray-100 border-t-2 border-black/30  border-dashed">
+      {/* <div className="bg-gray-100 border-t-2 border-black/30  border-dashed">
         <div
           style={{ maxWidth: 1200 }}
           className=" mx-auto flex max-md:flex-col justify-center items-center gap-10 p-10 max-md:px-5  "
@@ -534,7 +534,7 @@ const HomePage = () => {
             })}
           </motion.div>
         </div>
-      </div>
+      </div> */}
       {/* partner brand section end */}
     </div>
   );

@@ -237,11 +237,12 @@ const NavBar = ({ navBar2, showCase1Page }) => {
           className="flex justify-between mx-auto items-center gap-4 py-7 max-md:py-5 px-10 max-sm:px-5 font-medium"
         >
           <Link onClick={scrollToTop} to="/">
-            <img
+            {/* <img
               src={navBar2 ? "/Homyz-logo2.png" : logo}
               className="w-44 max-lg:w-36"
               alt="Homyz-logo"
-            />
+            /> */}
+            <div className="text-5xl font-semibold text-white">FALCON </div>
           </Link>
           <ul
             className={
@@ -266,7 +267,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
             >
               Our Services
             </Link>
-            <div className="showcase-menu cursor-pointer hover:text-red-500 transition-all relative">
+            {/* <div className="showcase-menu cursor-pointer hover:text-red-500 transition-all relative">
               Show Cases
               <div className="showcase-list hidden absolute cursor-default -left-4 ">
                 <ul
@@ -301,7 +302,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
             <Link
               onClick={scrollToTop}
               className="hover:text-red-500 transition-all"
@@ -392,7 +393,9 @@ const NavBar = ({ navBar2, showCase1Page }) => {
         } bg-white  left-0 w-96 p-5 px-10 max-sm:px-5 max-sm:w-80 z-30 transition-all font-medium`}
       >
         <div id="header" className="flex justify-between items-center">
-          <img className="w-36" src="/Homyz-logo2.png" alt="Homyz-logo2" />
+          {/* <img className="w-36" src="/Homyz-logo2.png" alt="Homyz-logo2" /> */}
+          <div className="text-5xl font-semibold text-black">FALCON </div>
+
           <div
             onClick={() => {
               setViewSideNav(!viewSideNav);
@@ -434,7 +437,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
             Our Services
           </Link>
           <div className="relative">
-            <div
+            {/* <div
               onClick={() => {
                 setShowcaseDropDown(!showcaseDropDown);
               }}
@@ -446,8 +449,8 @@ const NavBar = ({ navBar2, showCase1Page }) => {
                   showcaseDropDown ? "-rotate-180" : "rotate-0"
                 } transition-all `}
               />
-            </div>
-            <ul
+            </div> */}
+            {/* <ul
               className={`flex flex-col gap-2 mt-3 pl-5 transition-all duration-300 origin-top  `}
             >
               <Link
@@ -470,10 +473,10 @@ const NavBar = ({ navBar2, showCase1Page }) => {
               >
                 Show Cases 2
               </Link>
-            </ul>
+            </ul> */}
             <div
               className={`${
-                showcaseDropDown ? "top-[114px]" : "top-[41px]"
+                showcaseDropDown ? "top-[114px]" : "top-[5px]"
               } transition-all duration-200 absolute  w-full bg-white h-24`}
             >
               <Link
