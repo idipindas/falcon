@@ -29,22 +29,18 @@ export default function Carousel() {
         className="mySwiper text-xl"
       >
         <SwiperSlide>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit neque
-          natus asperiores unde, nulla sequi, nobis saepe dicta aut maiores quia
-          quos sapiente dolores consequuntur perspiciatis repellendus quis
-          necessitatibus quas.
+          "Simple and effective, will be using regularly. Good value and makes
+          the process of moving big things around so much easier!"
         </SwiperSlide>
         <SwiperSlide>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit neque
-          natus asperiores unde, nulla sequi, nobis saepe dicta aut maiores quia
-          quos sapiente dolores consequuntur perspiciatis repellendus quis
-          necessitatibus quas.
+          "Falcon fills the gaps between getting bulky items collected and
+          delivered and you having to go get them yourself. Used them many
+          times, saves me lots of time and money."
         </SwiperSlide>
         <SwiperSlide>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit neque
-          natus asperiores unde, nulla sequi, nobis saepe dicta aut maiores quia
-          quos sapiente dolores consequuntur perspiciatis repellendus quis
-          necessitatibus quas.
+          "All went very smoothly and easily and the courier service whose bid I
+          accepted were lovely, good communication, and helpful. Couldn't fault
+          at all and would certainly use again."
         </SwiperSlide>
 
         <div className="slider-controler flex max-md:justify-center  gap-3  mt-16">

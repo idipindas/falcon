@@ -99,10 +99,10 @@ const HomePage = () => {
                 <h2 className="text-4xl title-font font-bold">100+</h2>
                 <p className="text-lg">Premium clients</p>
               </div>
-              <div className="flex flex-col gap-4">
+              {/* <div className="flex flex-col gap-4">
                 <h2 className="text-4xl title-font font-bold">100+</h2>
                 <p className="text-lg">Premium clients</p>
-              </div>
+              </div> */}
             </div>
             {/* <div className="flex gap-12 max-sm:flex-wrap  justify-center">
               <div className="flex justify-start items-center gap-2">
